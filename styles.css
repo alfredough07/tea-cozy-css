@@ -34,6 +34,9 @@ a {
   padding: 18px;
   color: #fff;
 }
+a:hover{
+  color: indianred;
+}
 .hero {
   background-image: url("./assets/img-mission-background.jpg");
   min-height: 700px;
