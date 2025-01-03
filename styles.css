@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size:22px;
+  font-family: Helvetica;
+  color:seashell;
+;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+#logo {
+  height: 50px;
+  margin: 10px;
+  text-decoration: indianred;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  margin-top: 30px;
+}
+a {
+  padding: 18px;
+  color: #fff;
+}
+.hero {
+  background-image: url("./assets/img-mission-background.jpg");
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  border: 1px solid seashell;
+}
+.hero-title {
+  background-color: black;
+  padding: 20px;
+  width: 1200px;
+}
+.hero-title h2 {
+  padding-bottom: 20px;
+}
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.teas-heading {
+  text-align: center;
+  padding: 30px;
+}
+.section-teas {
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 300px;
+  height: 250px;
+}
+.tea p {
+  padding: 5px 5px;
+  margin: 10px;
+}
+#locations{
+  margin: auto;
+    text-align: center;
+    background-image: url("./assets/img-locations-background.jpg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.locations-heading{
+    margin-top: 100px;
+    padding: 30px;
+}
+.locations-heading h2{
+    margin-top: 40px;
+font-size: 33px;
+}
+.locations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.location{
+    background-color: black;
+    width: 300px;
+    margin:40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.location p, .location h2{
+    margin-bottom:30px;
+ 
+}
+.contact{
+    display: flex;
+    padding:20px;
+    flex-direction: column;
+    min-height: 200px;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin: 20px;
+    padding:30px 5px;
+}
+footer p{
+    text-align: left;
+}
